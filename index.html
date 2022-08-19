@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            To-Do Website
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <header>
+            <h2>My To Do List</h2>
+            <div class="input">
+                <input type="text" placeholder="Type you task here..." id="input-field">
+                <button onclick="addTask()">ADD</button>
+            </div>
+        </header>
+        <div class="list-container">
+            <div class="completed">
+                <h3>Tasks completed: </h3>
+                <span id="counter">0</span>
+            </div>
+
+            <ol class="lists">
+            </ol>
+        </div>
+
+    <script src="main.js"></script>
+    </body>
+</html>
